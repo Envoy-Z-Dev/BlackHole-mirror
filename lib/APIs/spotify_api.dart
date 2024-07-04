@@ -32,8 +32,8 @@ class SpotifyApi {
   ];
 
   /// You can signup for spotify developer account and get your own clientID and clientSecret incase you don't want to use these
-  final String clientID = '08de4eaf71904d1b95254fab3015d711';
-  final String clientSecret = '622b4fbad33947c59b95a6ae607de11d';
+  final String clientID = 'c844c344b98143c8941409999d6ef332';
+  final String clientSecret = 'ada57a5418ce4924a1a5146b49087e04';
   final String redirectUrl = 'app://blackhole/auth';
   final String spotifyApiUrl = 'https://accounts.spotify.com/api';
   final String spotifyApiBaseUrl = 'https://api.spotify.com/v1';

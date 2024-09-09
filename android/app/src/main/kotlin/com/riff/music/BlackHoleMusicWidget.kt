@@ -1,4 +1,4 @@
-package com.shadow.blackhole
+package com.riff.music
 
 import MainActivity
 import android.app.PendingIntent

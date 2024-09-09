@@ -54,7 +54,7 @@ import 'package:receive_sharing_intent/receive_sharing_intent.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Paint.enableDithering = true;
+  // Paint.enableDithering = true; No longer needed
 
   if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
     await Hive.initFlutter('BlackHole');
@@ -146,13 +146,11 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   Locale _locale = const Locale('en', '');
-  late StreamSubscription _intentTextStreamSubscription;
   late StreamSubscription _intentDataStreamSubscription;
   final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
   @override
   void dispose() {
-    _intentTextStreamSubscription.cancel();
     _intentDataStreamSubscription.cancel();
     super.dispose();
   }
@@ -174,32 +172,9 @@ class _MyAppState extends State<MyApp> {
     });
 
     if (Platform.isAndroid || Platform.isIOS) {
-      // For sharing or opening urls/text coming from outside the app while the app is in the memory
-      _intentTextStreamSubscription =
-          ReceiveSharingIntent.getTextStream().listen(
-        (String value) {
-          Logger.root.info('Received intent on stream: $value');
-          handleSharedText(value, navigatorKey);
-        },
-        onError: (err) {
-          Logger.root.severe('ERROR in getTextStream', err);
-        },
-      );
-
-      // For sharing or opening urls/text coming from outside the app while the app is closed
-      ReceiveSharingIntent.getInitialText().then(
-        (String? value) {
-          Logger.root.info('Received Intent initially: $value');
-          if (value != null) handleSharedText(value, navigatorKey);
-        },
-        onError: (err) {
-          Logger.root.severe('ERROR in getInitialTextStream', err);
-        },
-      );
-
       // For sharing files coming from outside the app while the app is in the memory
       _intentDataStreamSubscription =
-          ReceiveSharingIntent.getMediaStream().listen(
+          ReceiveSharingIntent.instance.getMediaStream().listen(
         (List<SharedMediaFile> value) {
           if (value.isNotEmpty) {
             for (final file in value) {
@@ -216,6 +191,14 @@ class _MyAppState extends State<MyApp> {
                 ).then(
                   (value) => navigatorKey.currentState?.pushNamed('/playlists'),
                 );
+              } else {
+                // Handle other file types as needed
+                if (file.path.endsWith('.txt')) {
+                  // Handle text file
+                  handleSharedText(file.path, navigatorKey);
+                } else if (file.path.endsWith('.mp3')) {
+                  // Handle audio file
+                }
               }
             }
           }
@@ -226,7 +209,8 @@ class _MyAppState extends State<MyApp> {
       );
 
       // For sharing files coming from outside the app while the app is closed
-      ReceiveSharingIntent.getInitialMedia()
+      ReceiveSharingIntent.instance
+          .getInitialMedia()
           .then((List<SharedMediaFile> value) {
         if (value.isNotEmpty) {
           for (final file in value) {
@@ -243,6 +227,14 @@ class _MyAppState extends State<MyApp> {
               ).then(
                 (value) => navigatorKey.currentState?.pushNamed('/playlists'),
               );
+            } else {
+              // Handle other file types as needed
+              if (file.path.endsWith('.txt')) {
+                // Handle text file
+                handleSharedText(file.path, navigatorKey);
+              } else if (file.path.endsWith('.mp3')) {
+                // Handle audio file
+              }
             }
           }
         }

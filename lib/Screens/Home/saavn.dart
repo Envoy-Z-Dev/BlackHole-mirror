@@ -361,7 +361,7 @@ class _SaavnHomePageState extends State<SaavnHomePage>
                                                                   .bodySmall!
                                                                   .color,
                                                         ),
-                                                      )
+                                                      ),
                                                   ],
                                                 ),
                                               ),
@@ -391,7 +391,7 @@ class _SaavnHomePageState extends State<SaavnHomePage>
                                 );
                               },
                             ),
-                          )
+                          ),
                         ],
                       );
               }
@@ -676,7 +676,7 @@ class _SaavnHomePageState extends State<SaavnHomePage>
                                               'artist'
                                           ? [
                                               item['more_info']['query']
-                                                  .toString()
+                                                  .toString(),
                                             ]
                                           : [item['id'].toString()],
                                       language: item['more_info']['language']
@@ -946,7 +946,7 @@ class _SaavnHomePageState extends State<SaavnHomePage>
                                                             .bodySmall!
                                                             .color,
                                                       ),
-                                                    )
+                                                    ),
                                                 ],
                                               ),
                                             ),

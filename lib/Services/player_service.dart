@@ -55,9 +55,7 @@ class PlayerInvoke {
       } else {
         offline = true;
       }
-    } else {
-      offline = offline;
-    }
+    } else {}
 
     if (!fromMiniplayer) {
       if (Platform.isIOS) {

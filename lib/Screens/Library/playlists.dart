@@ -544,12 +544,13 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                                   playlistDetails[name] == null
                                                       ? playlistDetails.addAll({
                                                           name: {
-                                                            'name': value.trim()
-                                                          }
+                                                            'name':
+                                                                value.trim(),
+                                                          },
                                                         })
                                                       : playlistDetails[name]
                                                           .addAll({
-                                                          'name': value.trim()
+                                                          'name': value.trim(),
                                                         });
 
                                                   await settingsBox.put(
@@ -593,13 +594,13 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                                         name: {
                                                           'name': controller
                                                               .text
-                                                              .trim()
-                                                        }
+                                                              .trim(),
+                                                        },
                                                       })
                                                     : playlistDetails[name]
                                                         .addAll({
                                                         'name': controller.text
-                                                            .trim()
+                                                            .trim(),
                                                       });
 
                                                 await settingsBox.put(
@@ -664,7 +665,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                     value: 1,
                                     child: Row(
                                       children: [
-                                        const Icon(MdiIcons.export),
+                                        Icon(MdiIcons.export),
                                         const SizedBox(width: 10.0),
                                         Text(
                                           AppLocalizations.of(context)!.export,
@@ -676,7 +677,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                     value: 2,
                                     child: Row(
                                       children: [
-                                        const Icon(MdiIcons.share),
+                                        Icon(MdiIcons.share),
                                         const SizedBox(width: 10.0),
                                         Text(
                                           AppLocalizations.of(context)!.share,
@@ -707,7 +708,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                           },
                         );
                       },
-                    )
+                    ),
                   ],
                 ),
               ),

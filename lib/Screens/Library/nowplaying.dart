@@ -100,7 +100,7 @@ class _NowPlayingState extends State<NowPlaying> {
                                         [
                                           NowPlayingStream(
                                             audioHandler: audioHandler,
-                                          )
+                                          ),
                                         ],
                                       ),
                                     ),

@@ -149,7 +149,7 @@ class _LikedSongsState extends State<LikedSongs>
         _albums.addEntries([MapEntry(element['album'].toString(), tempAlbum)]);
       } else {
         _albums.addEntries([
-          MapEntry(element['album'].toString(), [element as Map])
+          MapEntry(element['album'].toString(), [element as Map]),
         ]);
       }
 
@@ -160,7 +160,7 @@ class _LikedSongsState extends State<LikedSongs>
           _artists.addEntries([MapEntry(singleArtist, tempArtist)]);
         } else {
           _artists.addEntries([
-            MapEntry(singleArtist, [element])
+            MapEntry(singleArtist, [element]),
           ]);
         }
       });
@@ -171,7 +171,7 @@ class _LikedSongsState extends State<LikedSongs>
         _genres.addEntries([MapEntry(element['genre'].toString(), tempGenre)]);
       } else {
         _genres.addEntries([
-          MapEntry(element['genre'].toString(), [element])
+          MapEntry(element['genre'].toString(), [element]),
         ]);
       }
     }
@@ -538,7 +538,7 @@ class _LikedSongsState extends State<LikedSongs>
                                       selectMode.value = false;
                                     },
                                     icon: const Icon(Icons.clear_rounded),
-                                  )
+                                  ),
                                 ],
                               )
                             : child!;

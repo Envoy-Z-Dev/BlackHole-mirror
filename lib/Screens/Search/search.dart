@@ -674,7 +674,7 @@ class _SearchPageState extends State<SearchPage> {
                                                     if (key == 'Songs') {
                                                       PlayerInvoke.init(
                                                         songsList: [
-                                                          value[index]
+                                                          value[index],
                                                         ],
                                                         index: 0,
                                                         isOffline: false,

@@ -39,6 +39,7 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -117,7 +118,7 @@ class _SettingPageState extends State<SettingPage>
     'Haryanvi',
     'Rajasthani',
     'Odia',
-    'Assamese'
+    'Assamese',
   ];
   List miniButtonsOrder = Hive.box('settings').get(
     'miniButtonsOrder',
@@ -302,14 +303,13 @@ class _SettingPageState extends State<SettingPage>
                                       0.0,
                                       3.0,
                                     ),
-                                  )
+                                  ),
                                 ],
                               ),
                             ),
                           ),
                           onTap: () {
                             showModalBottomSheet(
-                              isDismissible: true,
                               backgroundColor: Colors.transparent,
                               context: context,
                               builder: (BuildContext context) {
@@ -355,11 +355,11 @@ class _SettingPageState extends State<SettingPage>
                                           mainAxisAlignment:
                                               MainAxisAlignment.spaceEvenly,
                                           children: [
-                                            for (int hue in [
+                                            for (final int hue in [
                                               100,
                                               200,
                                               400,
-                                              700
+                                              700,
                                             ])
                                               GestureDetector(
                                                 onTap: () {
@@ -402,7 +402,7 @@ class _SettingPageState extends State<SettingPage>
                                                           0.0,
                                                           3.0,
                                                         ),
-                                                      )
+                                                      ),
                                                     ],
                                                   ),
                                                   child: (themeColor ==
@@ -476,7 +476,7 @@ class _SettingPageState extends State<SettingPage>
                                             0.0,
                                             3.0,
                                           ),
-                                        )
+                                        ),
                                       ],
                                     ),
                                   ),
@@ -602,7 +602,7 @@ class _SettingPageState extends State<SettingPage>
                                             0.0,
                                             3.0,
                                           ),
-                                        )
+                                        ),
                                       ],
                                     ),
                                   ),
@@ -728,7 +728,7 @@ class _SettingPageState extends State<SettingPage>
                                             0.0,
                                             3.0,
                                           ),
-                                        )
+                                        ),
                                       ],
                                     ),
                                   ),
@@ -894,7 +894,7 @@ class _SettingPageState extends State<SettingPage>
                                     'Grey800',
                                     'Grey850',
                                     'Grey900',
-                                    'Black'
+                                    'Black',
                                   ].map<DropdownMenuItem<String>>(
                                       (String value) {
                                     return DropdownMenuItem<String>(
@@ -1180,7 +1180,7 @@ class _SettingPageState extends State<SettingPage>
                                             Icons.delete_rounded,
                                           ),
                                         ),
-                                      )
+                                      ),
                                   ],
                                 ),
                               );
@@ -1233,7 +1233,7 @@ class _SettingPageState extends State<SettingPage>
                             },
                             dense: true,
                           ),
-                        )
+                        ),
                       ],
                     ),
                   ),
@@ -1540,7 +1540,7 @@ class _SettingPageState extends State<SettingPage>
                               context: context,
                               builder: (BuildContext context) {
                                 final Set<int> checked = {
-                                  ...preferredCompactNotificationButtons
+                                  ...preferredCompactNotificationButtons,
                                 };
                                 final List<Map> buttons = [
                                   {
@@ -1645,7 +1645,7 @@ class _SettingPageState extends State<SettingPage>
                                                   );
                                                 },
                                               );
-                                            })
+                                            }),
                                           ],
                                         ),
                                       ),
@@ -1735,7 +1735,6 @@ class _SettingPageState extends State<SettingPage>
                             final GlobalKey<AnimatedListState> listKey =
                                 GlobalKey<AnimatedListState>();
                             showModalBottomSheet(
-                              isDismissible: true,
                               backgroundColor: Colors.transparent,
                               context: context,
                               builder: (BuildContext context) {
@@ -1918,14 +1917,14 @@ class _SettingPageState extends State<SettingPage>
                                     'Home',
                                     'Top Charts',
                                     'YouTube',
-                                    'Library'
+                                    'Library',
                                   ];
                                 } else {
                                   sectionsToShow.value = [
                                     'Home',
                                     'YouTube',
                                     'Library',
-                                    'Settings'
+                                    'Settings',
                                   ];
                                 }
                                 settingsBox.put(
@@ -2015,7 +2014,6 @@ class _SettingPageState extends State<SettingPage>
                           dense: true,
                           onTap: () {
                             showModalBottomSheet(
-                              isDismissible: true,
                               backgroundColor: Colors.transparent,
                               context: context,
                               builder: (BuildContext context) {
@@ -2595,7 +2593,6 @@ class _SettingPageState extends State<SettingPage>
                           dense: true,
                           onTap: () {
                             showModalBottomSheet(
-                              isDismissible: true,
                               backgroundColor: Colors.transparent,
                               context: context,
                               builder: (BuildContext context) {
@@ -2825,7 +2822,6 @@ class _SettingPageState extends State<SettingPage>
                             final GlobalKey<AnimatedListState> listKey =
                                 GlobalKey<AnimatedListState>();
                             showModalBottomSheet(
-                              isDismissible: true,
                               backgroundColor: Colors.transparent,
                               context: context,
                               builder: (BuildContext context) {
@@ -3418,7 +3414,7 @@ class _SettingPageState extends State<SettingPage>
                             final Directory tempDir =
                                 await getTemporaryDirectory();
                             final files = <XFile>[
-                              XFile('${tempDir.path}/logs/logs.txt')
+                              XFile('${tempDir.path}/logs/logs.txt'),
                             ];
                             Share.shareXFiles(files);
                           },
@@ -3475,7 +3471,6 @@ class _SettingPageState extends State<SettingPage>
                           dense: true,
                           onTap: () {
                             showModalBottomSheet(
-                              isDismissible: true,
                               backgroundColor: Colors.transparent,
                               context: context,
                               builder: (BuildContext context) {
@@ -4018,7 +4013,7 @@ class _SettingPageState extends State<SettingPage>
                                           mainAxisSize: MainAxisSize.min,
                                           children: [
                                             IconButton(
-                                              icon: const Icon(
+                                              icon: Icon(
                                                 MdiIcons.gmail,
                                               ),
                                               iconSize: 40,
@@ -4050,7 +4045,7 @@ class _SettingPageState extends State<SettingPage>
                                           children: [
                                             IconButton(
                                               icon: const Icon(
-                                                MdiIcons.telegram,
+                                                FontAwesomeIcons.telegram,
                                               ),
                                               iconSize: 40,
                                               tooltip: AppLocalizations.of(
@@ -4080,7 +4075,7 @@ class _SettingPageState extends State<SettingPage>
                                           mainAxisSize: MainAxisSize.min,
                                           children: [
                                             IconButton(
-                                              icon: const Icon(
+                                              icon: Icon(
                                                 MdiIcons.instagram,
                                               ),
                                               iconSize: 40,
@@ -4144,7 +4139,7 @@ class _SettingPageState extends State<SettingPage>
                                           children: [
                                             IconButton(
                                               icon: const Icon(
-                                                MdiIcons.telegram,
+                                                FontAwesomeIcons.telegram,
                                               ),
                                               iconSize: 40,
                                               tooltip: AppLocalizations.of(
@@ -4175,7 +4170,7 @@ class _SettingPageState extends State<SettingPage>
                                           children: [
                                             IconButton(
                                               icon: const Icon(
-                                                MdiIcons.telegram,
+                                                FontAwesomeIcons.telegram,
                                               ),
                                               iconSize: 40,
                                               tooltip: AppLocalizations.of(
@@ -4314,7 +4309,6 @@ class SpotifyCountry {
     }
 
     await showModalBottomSheet(
-      isDismissible: true,
       backgroundColor: Colors.transparent,
       context: context,
       builder: (BuildContext context) {

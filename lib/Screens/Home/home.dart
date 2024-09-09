@@ -545,7 +545,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           NavigationRailDestination(
-                            icon: const Icon(MdiIcons.youtube),
+                            icon: Icon(MdiIcons.youtube),
                             label: Text(AppLocalizations.of(context)!.youTube),
                           ),
                           NavigationRailDestination(
@@ -771,7 +771,7 @@ class _HomePageState extends State<HomePage> {
                                                         offset:
                                                             Offset(1.5, 1.5),
                                                         // shadow direction: bottom right
-                                                      )
+                                                      ),
                                                     ],
                                                   ),
                                                   child: Row(
@@ -864,7 +864,7 @@ class _HomePageState extends State<HomePage> {
                           ],
                         ),
                       ),
-                      MiniPlayer()
+                      MiniPlayer(),
                     ],
                   ),
                 ),
@@ -904,7 +904,7 @@ class _HomePageState extends State<HomePage> {
                                   Theme.of(context).colorScheme.secondary,
                             ),
                           SalomonBottomBarItem(
-                            icon: const Icon(MdiIcons.youtube),
+                            icon: Icon(MdiIcons.youtube),
                             title: Text(AppLocalizations.of(context)!.youTube),
                             selectedColor:
                                 Theme.of(context).colorScheme.secondary,

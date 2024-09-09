@@ -41,7 +41,7 @@ class _MusicPlaybackPageState extends State<MusicPlaybackPage> {
     'Haryanvi',
     'Rajasthani',
     'Odia',
-    'Assamese'
+    'Assamese',
   ];
   List preferredLanguage = Hive.box('settings')
       .get('preferredLanguage', defaultValue: ['Hindi'])?.toList() as List;
@@ -100,7 +100,6 @@ class _MusicPlaybackPageState extends State<MusicPlaybackPage> {
               dense: true,
               onTap: () {
                 showModalBottomSheet(
-                  isDismissible: true,
                   backgroundColor: Colors.transparent,
                   context: context,
                   builder: (BuildContext context) {
@@ -478,7 +477,6 @@ class SpotifyCountry {
     }
 
     await showModalBottomSheet(
-      isDismissible: true,
       backgroundColor: Colors.transparent,
       context: context,
       builder: (BuildContext context) {

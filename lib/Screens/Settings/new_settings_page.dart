@@ -150,7 +150,7 @@ class _NewSettingsPageState extends State<NewSettingsPage>
           AppLocalizations.of(context)!.useAmoled,
           AppLocalizations.of(context)!.currentTheme,
           AppLocalizations.of(context)!.saveTheme,
-        ]
+        ],
       },
       {
         'title': AppLocalizations.of(
@@ -173,7 +173,7 @@ class _NewSettingsPageState extends State<NewSettingsPage>
           AppLocalizations.of(context)!.showLast,
           AppLocalizations.of(context)!.showTopCharts,
           AppLocalizations.of(context)!.enableGesture,
-        ]
+        ],
       },
       {
         'title': AppLocalizations.of(
@@ -196,7 +196,7 @@ class _NewSettingsPageState extends State<NewSettingsPage>
           AppLocalizations.of(context)!.enforceRepeat,
           AppLocalizations.of(context)!.autoplay,
           AppLocalizations.of(context)!.cacheSong,
-        ]
+        ],
       },
       {
         'title': AppLocalizations.of(
@@ -214,7 +214,7 @@ class _NewSettingsPageState extends State<NewSettingsPage>
           AppLocalizations.of(context)!.createAlbumFold,
           AppLocalizations.of(context)!.createYtFold,
           AppLocalizations.of(context)!.downLyrics,
-        ]
+        ],
       },
       {
         'title': AppLocalizations.of(
@@ -238,7 +238,7 @@ class _NewSettingsPageState extends State<NewSettingsPage>
           AppLocalizations.of(context)!.proxySet,
           AppLocalizations.of(context)!.clearCache,
           AppLocalizations.of(context)!.shareLogs,
-        ]
+        ],
       },
       {
         'title': AppLocalizations.of(
@@ -253,7 +253,7 @@ class _NewSettingsPageState extends State<NewSettingsPage>
           AppLocalizations.of(context)!.restore,
           AppLocalizations.of(context)!.autoBack,
           AppLocalizations.of(context)!.autoBackLocation,
-        ]
+        ],
       },
       {
         'title': AppLocalizations.of(
@@ -271,7 +271,7 @@ class _NewSettingsPageState extends State<NewSettingsPage>
           AppLocalizations.of(context)!.donateGpay,
           AppLocalizations.of(context)!.joinTg,
           AppLocalizations.of(context)!.moreInfo,
-        ]
+        ],
       },
     ];
 

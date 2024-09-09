@@ -321,7 +321,7 @@ class _AppUIPageState extends State<AppUIPage> {
                   context: context,
                   builder: (BuildContext context) {
                     final Set<int> checked = {
-                      ...preferredCompactNotificationButtons
+                      ...preferredCompactNotificationButtons,
                     };
                     final List<Map> buttons = [
                       {
@@ -419,7 +419,7 @@ class _AppUIPageState extends State<AppUIPage> {
                                       );
                                     },
                                   );
-                                })
+                                }),
                               ],
                             ),
                           ),
@@ -506,7 +506,6 @@ class _AppUIPageState extends State<AppUIPage> {
                 final GlobalKey<AnimatedListState> listKey =
                     GlobalKey<AnimatedListState>();
                 showModalBottomSheet(
-                  isDismissible: true,
                   backgroundColor: Colors.transparent,
                   context: context,
                   builder: (BuildContext context) {
@@ -679,14 +678,14 @@ class _AppUIPageState extends State<AppUIPage> {
                         'Home',
                         'Top Charts',
                         'YouTube',
-                        'Library'
+                        'Library',
                       ];
                     } else {
                       sectionsToShow.value = [
                         'Home',
                         'YouTube',
                         'Library',
-                        'Settings'
+                        'Settings',
                       ];
                     }
                     settingsBox.put(

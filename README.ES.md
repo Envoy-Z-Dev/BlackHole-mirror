@@ -27,7 +27,7 @@ Un increible reproductor de música basado en Flutter
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Join Telegram Channel"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/riff_official)
 
 ## Traducciones
 

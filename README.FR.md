@@ -27,7 +27,7 @@ Superbe Lecteur de Musique fait avec Flutter !
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Rejoignez le Canal Telegram"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/riff_official)
 
 ## Traductions
 
@@ -122,7 +122,7 @@ Regardez les [Problèmes communs](https://github.com/Sangwan5688/BlackHole/wiki/
 
 ## Vous voulez tester les Versions Bêtas ? Besoin d'Aide ??
 
-Vous pouvez rejoindre notre [Canal Telegram](https://t.me/blackhole_official) ou le [Groupe Telegram](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), si vous avez une requête, ou vous avez besoin d'aide avec quelque chose ainsi qu'avoir les versions bêtas du projet.
+Vous pouvez rejoindre notre [Canal Telegram](https://t.me/riff_official) ou le [Groupe Telegram](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), si vous avez une requête, ou vous avez besoin d'aide avec quelque chose ainsi qu'avoir les versions bêtas du projet.
 
 ## Vous avez aimé mon travail ?
 

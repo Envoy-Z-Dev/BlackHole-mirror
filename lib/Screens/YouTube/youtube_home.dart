@@ -17,10 +17,10 @@
  * Copyright (c) 2021-2022, Ankit Sangwan
  */
 
-import 'package:blackhole/CustomWidgets/on_hover.dart';
-import 'package:blackhole/Screens/YouTube/youtube_playlist.dart';
-import 'package:blackhole/Screens/YouTube/youtube_search.dart';
-import 'package:blackhole/Services/youtube_services.dart';
+import 'package:riff/CustomWidgets/on_hover.dart';
+import 'package:riff/Screens/YouTube/youtube_playlist.dart';
+import 'package:riff/Screens/YouTube/youtube_search.dart';
+import 'package:riff/Services/youtube_services.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';

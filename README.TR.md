@@ -6,7 +6,7 @@ Tüm ihtiyaçlarınız için bir Açık Kaynaklı Müzik Çalar Uygulaması!
 
 [![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/Sangwan5688/BlackHole) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
 [![Build](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml)
-[![Translation-Status](https://hosted.weblate.org/widgets/blackhole/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/blackhole/)
+[![Translation-Status](https://hosted.weblate.org/widgets/riff/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/riff/)
 
 ### Depoyu :star:'lamayı unutmayın!
 
@@ -22,7 +22,7 @@ Tüm ihtiyaçlarınız için bir Açık Kaynaklı Müzik Çalar Uygulaması!
      height="90">](https://github.com/Sangwan5688/BlackHole/releases)
 [<img src="get_telegram.png"
      alt="Join Telegram Channel"
-     height="90">](https://t.me/blackhole_official)
+     height="90">](https://t.me/riff_official)
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
      height="90">](https://f-droid.org/packages/com.riff.music/)
@@ -41,7 +41,7 @@ Tüm ihtiyaçlarınız için bir Açık Kaynaklı Müzik Çalar Uygulaması!
 - [Belarusça :belarus:](/README.BE.md)
 - [Endonezya dili :indonesia:](/README.ID.md)
 
-[Uygulamayı Weblate üzerinden çevirin!](https://hosted.weblate.org/projects/blackhole/translations/)
+[Uygulamayı Weblate üzerinden çevirin!](https://hosted.weblate.org/projects/riff/translations/)
 
 ## Özellikler
 
@@ -140,7 +140,7 @@ Karşılaşabileceğiniz bazı [yaygın sorunlara](https://github.com/Sangwan568
 
 ## Beta Sürümlerini test etmek ister misiniz? Yardıma mı ihtiyacınız var?
 
-Herhangi bir sorunuz varsa veya bir konuda yardıma ihtiyacınız varsa [Telegram Kanalımıza](https://t.me/blackhole_official) veya [Telegram Grubumuza](https://t.me/joinchat/fHDC1AWnOhw0ZmI9) katılabilirsiniz. yanı sıra projenin beta güncellemelerini almak için.
+Herhangi bir sorunuz varsa veya bir konuda yardıma ihtiyacınız varsa [Telegram Kanalımıza](https://t.me/riff_official) veya [Telegram Grubumuza](https://t.me/joinchat/fHDC1AWnOhw0ZmI9) katılabilirsiniz. yanı sıra projenin beta güncellemelerini almak için.
 
 ## Çalışmamı beğendin mi?
 

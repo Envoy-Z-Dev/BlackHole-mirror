@@ -27,7 +27,7 @@ Um reprodutor de música incrível para todas as suas necessidades!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Join Telegram Channel"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/riff_official)
 
 ## Traduções
 
@@ -122,7 +122,7 @@ Olhe alguns dos [problemas](https://github.com/Sangwan5688/BlackHole/wiki/Common
 
 ## Quer testar as versões beta? Preciso de ajuda??
 
-Você pode entrar no nosso [canal](https://t.me/blackhole_official) ou [grupo](https://t.me/joinchat/fHDC1AWnOhw0ZmI9) do Telegram se tiver alguma dúvida ou precisar de ajuda com algo, bem como para obter atualizações beta do projeto.
+Você pode entrar no nosso [canal](https://t.me/riff_official) ou [grupo](https://t.me/joinchat/fHDC1AWnOhw0ZmI9) do Telegram se tiver alguma dúvida ou precisar de ajuda com algo, bem como para obter atualizações beta do projeto.
 
 ## Gostou do meu trabalho?
 

@@ -21,25 +21,25 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:audio_service/audio_service.dart';
-import 'package:blackhole/Helpers/config.dart';
-import 'package:blackhole/Helpers/countrycodes.dart';
-import 'package:blackhole/Helpers/handle_native.dart';
-import 'package:blackhole/Helpers/import_export_playlist.dart';
-import 'package:blackhole/Helpers/logging.dart';
-import 'package:blackhole/Helpers/route_handler.dart';
-import 'package:blackhole/Screens/About/about.dart';
-import 'package:blackhole/Screens/Home/home.dart';
-import 'package:blackhole/Screens/Library/downloads.dart';
-import 'package:blackhole/Screens/Library/nowplaying.dart';
-import 'package:blackhole/Screens/Library/playlists.dart';
-import 'package:blackhole/Screens/Library/recent.dart';
-import 'package:blackhole/Screens/Library/stats.dart';
-import 'package:blackhole/Screens/Login/auth.dart';
-import 'package:blackhole/Screens/Login/pref.dart';
-import 'package:blackhole/Screens/Player/audioplayer.dart';
-import 'package:blackhole/Screens/Settings/new_settings_page.dart';
-import 'package:blackhole/Services/audio_service.dart';
-import 'package:blackhole/theme/app_theme.dart';
+import 'package:riff/Helpers/config.dart';
+import 'package:riff/Helpers/countrycodes.dart';
+import 'package:riff/Helpers/handle_native.dart';
+import 'package:riff/Helpers/import_export_playlist.dart';
+import 'package:riff/Helpers/logging.dart';
+import 'package:riff/Helpers/route_handler.dart';
+import 'package:riff/Screens/About/about.dart';
+import 'package:riff/Screens/Home/home.dart';
+import 'package:riff/Screens/Library/downloads.dart';
+import 'package:riff/Screens/Library/nowplaying.dart';
+import 'package:riff/Screens/Library/playlists.dart';
+import 'package:riff/Screens/Library/recent.dart';
+import 'package:riff/Screens/Library/stats.dart';
+import 'package:riff/Screens/Login/auth.dart';
+import 'package:riff/Screens/Login/pref.dart';
+import 'package:riff/Screens/Player/audioplayer.dart';
+import 'package:riff/Screens/Settings/new_settings_page.dart';
+import 'package:riff/Services/audio_service.dart';
+import 'package:riff/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_displaymode/flutter_displaymode.dart';
@@ -285,7 +285,7 @@ class _MyAppState extends State<MyApp> {
       ),
       child: MaterialApp(
         title: 'BlackHole',
-        restorationScopeId: 'blackhole',
+        restorationScopeId: 'riff',
         debugShowCheckedModeBanner: false,
         themeMode: AppTheme.themeMode,
         theme: AppTheme.lightTheme(

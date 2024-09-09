@@ -6,7 +6,7 @@ Sebuah Pemutar Musik Sumber Terbuka untuk semua kebutuhanmu!
 
 [![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/Sangwan5688/BlackHole) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
 [![Build](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml)
-[![Translation-Status](https://hosted.weblate.org/widgets/blackhole/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/blackhole/)
+[![Translation-Status](https://hosted.weblate.org/widgets/riff/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/riff/)
 
 ### Jangan lupa :star: repo ini
 
@@ -28,7 +28,7 @@ Sebuah Pemutar Musik Sumber Terbuka untuk semua kebutuhanmu!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Gabung saluran telegram"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/riff_official)
 
 ## Terjemahan
 
@@ -39,7 +39,7 @@ Sebuah Pemutar Musik Sumber Terbuka untuk semua kebutuhanmu!
 - [Japanese :jp:](/README.JA.md)
 - [Belarusian :belarus:](/README.BE.md)
 
-[Terjemakan Aplikasi di Weblate](https://hosted.weblate.org/projects/blackhole/translations/)
+[Terjemakan Aplikasi di Weblate](https://hosted.weblate.org/projects/riff/translations/)
 
 ## Fitur
 
@@ -139,7 +139,7 @@ Lihat pada beberapa [masalah umum](https://github.com/Sangwan5688/BlackHole/wiki
 
 ## Ingin mencoba versi Beta? Butuh bantuan??
 
-Kamu dapat bergabung ke [Saluran Telegram](https://t.me/blackhole_official) atau [Grup Telegram](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), Jika kamu memiliki pertanyaan, atau membutuhkan bantuan dengan sesuatu serta untuk mendapatkan pembaruan proyek beta.
+Kamu dapat bergabung ke [Saluran Telegram](https://t.me/riff_official) atau [Grup Telegram](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), Jika kamu memiliki pertanyaan, atau membutuhkan bantuan dengan sesuatu serta untuk mendapatkan pembaruan proyek beta.
 
 ## Menyukai hasil kerja saya?
 

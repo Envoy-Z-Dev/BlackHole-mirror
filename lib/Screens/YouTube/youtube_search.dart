@@ -17,17 +17,17 @@
  * Copyright (c) 2021-2022, Ankit Sangwan
  */
 
-import 'package:blackhole/CustomWidgets/empty_screen.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/miniplayer.dart';
-import 'package:blackhole/CustomWidgets/search_bar.dart' as searchbar;
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/CustomWidgets/song_tile_trailing_menu.dart';
-import 'package:blackhole/Screens/YouTube/youtube_artist.dart';
-import 'package:blackhole/Screens/YouTube/youtube_playlist.dart';
-import 'package:blackhole/Services/player_service.dart';
-import 'package:blackhole/Services/youtube_services.dart';
-import 'package:blackhole/Services/yt_music.dart';
+import 'package:riff/CustomWidgets/empty_screen.dart';
+import 'package:riff/CustomWidgets/gradient_containers.dart';
+import 'package:riff/CustomWidgets/miniplayer.dart';
+import 'package:riff/CustomWidgets/search_bar.dart' as searchbar;
+import 'package:riff/CustomWidgets/snackbar.dart';
+import 'package:riff/CustomWidgets/song_tile_trailing_menu.dart';
+import 'package:riff/Screens/YouTube/youtube_artist.dart';
+import 'package:riff/Screens/YouTube/youtube_playlist.dart';
+import 'package:riff/Services/player_service.dart';
+import 'package:riff/Services/youtube_services.dart';
+import 'package:riff/Services/yt_music.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

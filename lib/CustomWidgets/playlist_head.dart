@@ -17,7 +17,7 @@
  * Copyright (c) 2021-2022, Ankit Sangwan
  */
 
-import 'package:blackhole/Services/player_service.dart';
+import 'package:riff/Services/player_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 

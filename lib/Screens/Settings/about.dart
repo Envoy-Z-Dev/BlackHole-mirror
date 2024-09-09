@@ -1,8 +1,8 @@
-import 'package:blackhole/CustomWidgets/copy_clipboard.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/Helpers/github.dart';
-import 'package:blackhole/Helpers/update.dart';
+import 'package:riff/CustomWidgets/copy_clipboard.dart';
+import 'package:riff/CustomWidgets/gradient_containers.dart';
+import 'package:riff/CustomWidgets/snackbar.dart';
+import 'package:riff/Helpers/github.dart';
+import 'package:riff/Helpers/update.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -300,7 +300,7 @@ class _AboutPageState extends State<AboutPage> {
                                               Navigator.pop(context);
                                               launchUrl(
                                                 Uri.parse(
-                                                  'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dblackholeyoucantescape%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
+                                                  'https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Driffyoucantescape%40gmail.com%26subject%3DRegarding%2520Mobile%2520App',
                                                 ),
                                                 mode: LaunchMode
                                                     .externalApplication,
@@ -456,7 +456,7 @@ class _AboutPageState extends State<AboutPage> {
                                               Navigator.pop(context);
                                               launchUrl(
                                                 Uri.parse(
-                                                  'https://t.me/blackhole_official',
+                                                  'https://t.me/riff_official',
                                                 ),
                                                 mode: LaunchMode
                                                     .externalApplication,

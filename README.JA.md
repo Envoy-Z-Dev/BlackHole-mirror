@@ -6,7 +6,7 @@
 
 [![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/Sangwan5688/BlackHole) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
 [![Build](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml)
-[![Translation-Status](https://hosted.weblate.org/widgets/blackhole/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/blackhole/)
+[![Translation-Status](https://hosted.weblate.org/widgets/riff/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/riff/)
 
 ### リポジトリに:star:をつけるのを忘れずに
 
@@ -28,7 +28,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Join Telegram Channel"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/riff_official)
 
 ## 翻訳
 
@@ -40,7 +40,7 @@
 - [Belarusian :belarus:](/README.BE.md)
 - [Indonesian :indonesia:](/README.ID.md)
 
-[Weblateでアプリを翻訳](https://hosted.weblate.org/projects/blackhole/translations/)
+[Weblateでアプリを翻訳](https://hosted.weblate.org/projects/riff/translations/)
 
 ## 特徴
 
@@ -140,7 +140,7 @@ flutter run
 
 ## ベータ版をテストしたいですか？ヘルプが必要ですか？？
 
-[Telegramチャンネル](https://t.me/blackhole_official)または[Telegramグループ](https://t.me/joinchat/fHDC1AWnOhw0ZmI9)に参加すると、プロジェクトのベータ版アップデートを受け取ることができます。
+[Telegramチャンネル](https://t.me/riff_official)または[Telegramグループ](https://t.me/joinchat/fHDC1AWnOhw0ZmI9)に参加すると、プロジェクトのベータ版アップデートを受け取ることができます。
 
 ## 私の作品を気に入っていただけましたか？
 

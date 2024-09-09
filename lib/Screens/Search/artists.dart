@@ -17,22 +17,22 @@
  * Copyright (c) 2021-2022, Ankit Sangwan
  */
 
-import 'package:blackhole/APIs/api.dart';
-import 'package:blackhole/CustomWidgets/artist_like_button.dart';
-import 'package:blackhole/CustomWidgets/bouncy_sliver_scroll_view.dart';
-import 'package:blackhole/CustomWidgets/copy_clipboard.dart';
-import 'package:blackhole/CustomWidgets/download_button.dart';
-import 'package:blackhole/CustomWidgets/empty_screen.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/horizontal_albumlist.dart';
-import 'package:blackhole/CustomWidgets/like_button.dart';
-import 'package:blackhole/CustomWidgets/miniplayer.dart';
-import 'package:blackhole/CustomWidgets/playlist_popupmenu.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/CustomWidgets/song_tile_trailing_menu.dart';
-import 'package:blackhole/Helpers/image_resolution_modifier.dart';
-import 'package:blackhole/Screens/Common/song_list.dart';
-import 'package:blackhole/Services/player_service.dart';
+import 'package:riff/APIs/api.dart';
+import 'package:riff/CustomWidgets/artist_like_button.dart';
+import 'package:riff/CustomWidgets/bouncy_sliver_scroll_view.dart';
+import 'package:riff/CustomWidgets/copy_clipboard.dart';
+import 'package:riff/CustomWidgets/download_button.dart';
+import 'package:riff/CustomWidgets/empty_screen.dart';
+import 'package:riff/CustomWidgets/gradient_containers.dart';
+import 'package:riff/CustomWidgets/horizontal_albumlist.dart';
+import 'package:riff/CustomWidgets/like_button.dart';
+import 'package:riff/CustomWidgets/miniplayer.dart';
+import 'package:riff/CustomWidgets/playlist_popupmenu.dart';
+import 'package:riff/CustomWidgets/snackbar.dart';
+import 'package:riff/CustomWidgets/song_tile_trailing_menu.dart';
+import 'package:riff/Helpers/image_resolution_modifier.dart';
+import 'package:riff/Screens/Common/song_list.dart';
+import 'package:riff/Services/player_service.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

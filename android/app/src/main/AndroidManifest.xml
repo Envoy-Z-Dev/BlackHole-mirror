@@ -83,7 +83,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="blackhole"
+                    android:host="riff"
                     android:pathPrefix="/auth"
                     android:scheme="app" />
             </intent-filter>
@@ -94,7 +94,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="blackhole"
+                    android:host="riff"
                     android:pathPrefix="/play"
                     android:scheme="app" />
             </intent-filter>

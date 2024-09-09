@@ -27,7 +27,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Join Telegram Channel"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/riff_official)
 
 ## Переводы
 
@@ -121,7 +121,7 @@ flutter run
 
 ## Хотите протестировать бета-версию? Нужна помощь??
 
-Вы можете присоединиться к нашему [Telegram Каналу](https://t.me/blackhole_official) или [Telegram Группе](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), если у вас есть вопросы или вам нужна помощь, а также для получения бета-обновлений проекта.
+Вы можете присоединиться к нашему [Telegram Каналу](https://t.me/riff_official) или [Telegram Группе](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), если у вас есть вопросы или вам нужна помощь, а также для получения бета-обновлений проекта.
 
 ## Понравилась моя работа?
 

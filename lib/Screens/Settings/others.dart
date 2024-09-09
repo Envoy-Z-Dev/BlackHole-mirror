@@ -1,12 +1,12 @@
 import 'dart:io';
 
-import 'package:blackhole/CustomWidgets/box_switch_tile.dart';
-import 'package:blackhole/CustomWidgets/gradient_containers.dart';
-import 'package:blackhole/CustomWidgets/snackbar.dart';
-import 'package:blackhole/CustomWidgets/textinput_dialog.dart';
-import 'package:blackhole/Helpers/countrycodes.dart';
-import 'package:blackhole/Helpers/picker.dart';
-import 'package:blackhole/main.dart';
+import 'package:riff/CustomWidgets/box_switch_tile.dart';
+import 'package:riff/CustomWidgets/gradient_containers.dart';
+import 'package:riff/CustomWidgets/snackbar.dart';
+import 'package:riff/CustomWidgets/textinput_dialog.dart';
+import 'package:riff/Helpers/countrycodes.dart';
+import 'package:riff/Helpers/picker.dart';
+import 'package:riff/main.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';

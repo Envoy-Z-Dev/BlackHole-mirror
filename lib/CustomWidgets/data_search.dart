@@ -19,10 +19,10 @@
 
 import 'dart:io';
 
-import 'package:blackhole/CustomWidgets/download_button.dart';
-import 'package:blackhole/CustomWidgets/song_tile_trailing_menu.dart';
-import 'package:blackhole/Helpers/audio_query.dart';
-import 'package:blackhole/Services/player_service.dart';
+import 'package:riff/CustomWidgets/download_button.dart';
+import 'package:riff/CustomWidgets/song_tile_trailing_menu.dart';
+import 'package:riff/Helpers/audio_query.dart';
+import 'package:riff/Services/player_service.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

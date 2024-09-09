@@ -19,9 +19,9 @@
 
 import 'dart:convert';
 
-import 'package:blackhole/Helpers/extensions.dart';
-import 'package:blackhole/Services/ytmusic/nav.dart';
-import 'package:blackhole/Services/ytmusic/playlist.dart';
+import 'package:riff/Helpers/extensions.dart';
+import 'package:riff/Services/ytmusic/nav.dart';
+import 'package:riff/Services/ytmusic/playlist.dart';
 import 'package:http/http.dart';
 import 'package:logging/logging.dart';
 

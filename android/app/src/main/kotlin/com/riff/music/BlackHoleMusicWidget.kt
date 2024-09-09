@@ -27,7 +27,7 @@ internal fun updateAppWidget(context: Context, appWidgetManager: AppWidgetManage
     val views = RemoteViews(context.packageName, R.layout.black_hole_music_widget)
 
     // val intent = Intent(context, MainActivity::class.java);
-    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("app://blackhole/play"))
+    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("app://riff/play"))
 
     // val intent = Intent(Intent.ACTION_VIEW)
     // intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)

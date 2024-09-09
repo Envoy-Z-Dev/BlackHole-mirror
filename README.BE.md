@@ -6,7 +6,7 @@
 
 [![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Release](https://img.shields.io/github/v/release/Sangwan5688/BlackHole) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
 [![Build](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml/badge.svg)](https://github.com/Sangwan5688/BlackHole/actions/workflows/flutter.yml)
-[![Translation-Status](https://hosted.weblate.org/widgets/blackhole/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/blackhole/)
+[![Translation-Status](https://hosted.weblate.org/widgets/riff/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/riff/)
 
 ### Не забудзьцеся паставіць :star: у рэпазіторыі
 
@@ -28,7 +28,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [<img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white"
      alt="Join Telegram Channel"
-     height="60">](https://t.me/blackhole_official)
+     height="60">](https://t.me/riff_official)
 
 ## Пераклады
 
@@ -39,7 +39,7 @@
 - [Japanese :jp:](/README.JA.md)
 - [Indonesian :indonesia:](/README.ID.md)
 
-[Пераклад праграмы на Weblate](https://hosted.weblate.org/projects/blackhole/translations/)
+[Пераклад праграмы на Weblate](https://hosted.weblate.org/projects/riff/translations/)
 
 ## Магчымасці
 
@@ -139,7 +139,7 @@ flutter run
 
 ## Хочаце пратэставаць бэта-версію? Патрэбна дапамога??
 
-Вы можаце далучыцца да нашага [канала Telegram](https://t.me/blackhole_official) або [групы Telegram](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), калі ў вас ёсць якія-небудзь пытанні ці патрэбна дапамога з чымсьці, а таксама каб атрымаць бэта-абнаўленні праекта.
+Вы можаце далучыцца да нашага [канала Telegram](https://t.me/riff_official) або [групы Telegram](https://t.me/joinchat/fHDC1AWnOhw0ZmI9), калі ў вас ёсць якія-небудзь пытанні ці патрэбна дапамога з чымсьці, а таксама каб атрымаць бэта-абнаўленні праекта.
 
 ## Спадабалася мая праца?
 
